@@ -1,0 +1,12 @@
+.clear:after {
+    clear: both
+}
+
+.clear:after,
+.clear:before {
+    display: flex;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
